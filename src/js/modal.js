@@ -2,6 +2,7 @@ import $ from 'jquery';
 window.$ = $;
 
 $(function () {
+  console.log('fdggdfgfd');
   function modal() {
     $('.open_modal').on('click', function (e) {
       e.preventDefault();
